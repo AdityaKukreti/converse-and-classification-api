@@ -1,11 +1,6 @@
 from mediapipe.tasks import python
 from mediapipe.tasks.python import text
 
-INPUT_TEXT = "i wanna kill everyone and do a massacare!!"
-
-
-# print(f'{top_category.category_name} ({top_category.score:.2f})')
-# print(top_category)
 
 
 class MediaPipeAPI:
