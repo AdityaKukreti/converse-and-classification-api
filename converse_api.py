@@ -1,9 +1,10 @@
 from openai import OpenAI
+import os
 
 class ConverseAPI:
 
     def __init__(self) -> None:
-        self._API_KEY = open('api_key.txt','r').read()
+        self._API_KEY = os.getenv('api_key')
         self.client = OpenAI(api_key=self._API_KEY)
 
     def getResponse(self, prompt):
