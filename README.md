@@ -1,7 +1,7 @@
 # converse-and-classification-api
 
 # To get the score of your text
-https://converse-and-classification-api.onrender.com/get-score/<prompt>
+https://converse-and-classification-api.onrender.com/get-score/<<prompt>>
 
 # To get the chat response of your text
 https://converse-and-classification-api.onrender.com/get-response/<prompt>
